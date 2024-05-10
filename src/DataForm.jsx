@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from 'axios';
 
 const DataForm = () => {
-  const API_URL = 'https://spectacular-flan-c1e4b3.netlify.app/.netlify/functions/api';
+  const API_URL = 'https://spectacular-flan-c1e4b3.netlify.app/.netlify/functions/api/';
   const [data, setData] = useState([]);
   const [recipe, setRecipe] = useState('');
   const [ingredients, setIngredients] = useState('');
